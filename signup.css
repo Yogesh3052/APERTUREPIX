@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+   
+    font-family: sans-serif;
+    
+
+}
+.bg{
+    background-image:linear-gradient(0,0,0,0) url("images\pexels-pixabay-38537.jpg");
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    width: 400px;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(52, 52, 52, 0.4);
+    position: absolute;
+    text-align: center;
+    border-radius: 24px;
+}
+.box h1{
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.box input[type="text"],.box input[type="email"],.box input[type="tel"],.box input[type="textarea"]{
+    border: 0;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid yellow;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: aliceblue;
+    border-radius: 25px;
+    transition: 0.25px;
+
+}
+.box input[type="text"]:focus{
+    width: 229px;
+    color: blueviolet;
+
+}
+.box input[type="submit"]{
+    border: 0;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid yellow;
+    padding: 14px 10px;
+    width: 100px;
+    outline: none;
+    color: black;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+    background-color: yellow;
+}
+.box input[type="submit"]:hover{
+    background-color: aqua;
+}
+.box input[type="button"]{
+    border: 0;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid yellow;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+    background-color: yellow;
+}
+.box input[type="button"]:hover{
+    background-color: aqua;
+}
+h5{
+    color: yellow;
+}
+h6{
+    color: aliceblue;
+    padding: 0%;
+}

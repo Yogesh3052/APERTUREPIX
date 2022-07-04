@@ -1,0 +1,224 @@
+.hero{
+   /* background-image:url(pexels-pixabay-147411.jpg);*/
+    background-position:center;
+    background-size:100%;
+    height:100vh;
+    width:100%;
+    margin-top:-6px ;
+}
+.navbar{
+    background-color: rgb(7, 7, 7);
+    border-radius: 26px;
+    position: relative;
+    top: 27px;
+}
+.navbar{
+
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    color: rgb(244, 240, 240);
+    margin:10px 11px;
+    align-items: right;
+}
+.navbar li a{
+    padding:3px 3px;
+    color: rgb(120, 120, 124);
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background-color: rgb(238, 254, 6);
+    border-radius: 26px;
+    text-emphasis-color: black;
+}
+.navbar li img{
+    margin: -14px -16px;
+    height: 45px;
+    width: 50px;
+}
+h1{
+    text-align: center;
+    color: rgb(251, 251, 252);
+    position:absolute;
+    top: 18%;
+    left: 25%;
+    right:25% ;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:40%;
+}
+.search-bar{
+    width: 100%;
+    max-width: 350px;
+    background:rgba(129, 129, 130.25);
+    display: flex;
+    align-items: center;
+    border-radius:60px;
+    padding:0px 14px;
+}
+.search-bar input{
+    background: transparent;
+    flex:1;
+    border:0;
+    outline:none;
+    padding: 24px 20px;
+    font: size 20px;
+    color: aliceblue;
+}
+::placeholder{
+        color:#cac7ff;
+}
+.search-bar img{
+    width: 25px;
+}
+.search-bar button{
+    background: transparent;
+    border: 0;
+    border-radius:50%;
+    background: rgb(108, 107, 107);
+    height: 60px;
+    width:60px;
+    cursor: pointer;
+}
+.logo{
+    height: 60px;
+    width:60px;
+    padding: 0px 0px;
+}
+#categories{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:1px;
+    border-bottom: 1px solid black;
+
+
+}
+.section-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(0, 26, 66);
+}
+.section-heading span{
+    color: seagreen;
+}
+.section-heading h3{
+    color: rgb(249, 254, 0);
+    font-size:2.4rem;
+    font-weight: 600;
+}
+.section-container{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap:wrap ;
+    margin: 20px 0px;
+}
+.section-box{
+    width: 350px;
+    margin: 20px;
+}
+.section-img{
+    width: 100%;
+    height: auto;
+}
+.section-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center;
+    
+}
+.section-img img:hover{
+    transform: scale(1.2);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.section-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+}
+.section-text span{
+    color:darkred;
+}
+h3{
+    text-align: center;
+    color:black;
+    margin-top: 3rem;
+}
+h3:hover{
+    color: aqua;
+    text-decoration:underline;
+
+}
+h4{
+    text-align: center;
+    color:gray;
+    padding: 2px;
+    top: 70px;
+}
+footer{
+    background-color: rgb(35, 34, 34);
+    height: auto;
+    width: 100vw;
+    font-family:"open sans";
+    padding-top: 40px;
+    color: aliceblue;
+}
+.footer-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+     
+}
+.social{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social li{
+    margin: 0 0px;
+    display: flex;
+    flex-direction:row;
+    
+}
+.social a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer-bottom{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center
+}
+.card-image-top:hover{
+     transform: scale(1.2);
+}
